@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='icon' href='brian.png' type='image/x-icon'>
     <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js"></script>
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Chats | Kakao Clone</title>
 </head>
 <body>
@@ -16,7 +17,7 @@
             <i class="fas fa-clock"></i>
             <i class="fas fa-volume-up"></i>
             <i class="fas fa-wifi"></i>
-            <span class="status-ar__battery-level">90%</span>
+            <span class="status-bar__battery-level">90%</span>
             <i class="fas fa-battery-three-quarters"></i>
         </div>
     </div>
@@ -40,20 +41,26 @@
         <ul class="chats__list">
             <li class="chats__chat chat">
                 <a href="chat.html">
-                    <div class="chat__column">
-                        <img class="chat__avatar g-avatar" src="img/puppy.jpg" />
-                        <div class="chat__content">
-                            <span class="chat__username">
-                                Lynn
-                            </span>
-                            <span class="chat__preview">
-                                Going Home
-                            </span>
-                        </div>
-                    </div>
-                    <div class="chat__column">
-                        <span class="chat__tiemstamp">Yesterday</span>
-                    </div>
+                    <div class="chats__chat friend friend--lg">
+                        <div class="friend__column">
+                            <img src="img/gdragon.png" class="m-avatar friend__avatar">
+                            <div class="friend__content">
+                                <span class="friend__name">
+                                    권지용
+                                </span>
+                                <span class="friend__bottom-text">
+                                    hey new album is coming up
+                                </span>
+                            </div>
+                        </div> 
+                        <div class="friend__column">
+                            <div class="friend__timestamp">
+                               <span class="chat__timestamp">
+                                   March 8
+                               </span>
+                            </div>
+                        </div>  
+                    </div>    
                 </a>
             </li>
         </ul>
@@ -64,6 +71,7 @@
                 <i class="far fa-user"></i>
             </a></li>
             <li class="nav__list-item"><a href="index.html" class="nav__list-link">
+                <div class="nav__badge">8</div>
                 <i class="fas fa-comment"></i>
             </a></li>
             <li class="nav__list-item"><a href="find.html" class="nav__list-link">

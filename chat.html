@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='icon' href='brian.png' type='image/x-icon'>
     <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js"></script>
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Chat | Kakao Clone</title>
 </head>
 <body>
@@ -16,18 +17,18 @@
             <i class="fas fa-clock"></i>
             <i class="fas fa-volume-up"></i>
             <i class="fas fa-wifi"></i>
-            <span class="status-ar__battery-level">90%</span>
+            <span class="status-bar__battery-level">90%</span>
             <i class="fas fa-battery-three-quarters"></i>
         </div>
     </div>
     <header class = "header">
         <div class="header__header-column">
+            <a href="index.html" class="header__back-btn">
+                <i class="fas fa-arrow-left"></i>
+            </a>         
             <h1 class="header__title">Best Friend</h1>
         </div>
         <div class="header__header-column">      
-            <a href="index.html">
-                <i class="fas fa-arrow-left fa-2x"></i>
-            </a>         
             <span class="header__icon">
                 <i class="fas fa-search"></i>
             </span>        
@@ -40,7 +41,7 @@
        <ul class="chat__messages">
            <span class="chat__timestamp">Friday, April 11, 2020</span>
            <li class="incoming-message message">
-               <img src="img/jimmy.png" class="g-avatar message__avatar" />
+               <img src="img/jimmy.png" class="message__avatar" />
                <div class="message__content">
                    <span class="message__author">Best friend</span>
                    <div class="message__bubble">

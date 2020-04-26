@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+@import "reset.css";
+@import "status-bar.css";
+@import "header.css";
+@import "nav-bar.css";
+@import "friend.css";
+@import "friends.css";
+@import "find.css";
+@import "more.css";
+@import "settings.css";
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    padding: 10px 20px; /*top and bottom 10, left right 20*/
+    color: #020202; /*using full black is not good*/
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont;
+}
+
+a {
+    color: inherit; /*inherit color from the parent */
+    text-decoration:none;
+}

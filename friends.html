@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='icon' href='brian.png' type='image/x-icon'>
     <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js"></script>
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Friends | Kakao Clone</title>
 </head>
 <body>
@@ -16,7 +17,7 @@
             <i class="fas fa-clock"></i>
             <i class="fas fa-volume-up"></i>
             <i class="fas fa-wifi"></i>
-            <span class="status-ar__battery-level">90%</span>
+            <span class="status-bar__battery-level">90%</span>
             <i class="fas fa-battery-three-quarters"></i>
         </div>
     </div>
@@ -53,7 +54,7 @@
             <h5 class="friends__plus-title">Plus Friend</h5>
             <div class="friends__friend friend">
                 <div class="friend__column">
-                    <img src="img/jimmy.png" class="g-avatar friend__avatar">
+                    <img src="img/jimmy.png" class="friend__avatar">
                     <div class="friend__content">
                         <span class="friend__name">
                             Jammy
@@ -64,9 +65,9 @@
         </div>
         <ul class="friends__list">
             <h5 class="friends__title">Friends 14</h5>
-            <div class="friends__friend friend friend--lg">
+            <li class="friends__friend friend friend--lg">
                 <div class="friend__column">
-                    <img src="img/gdragon.png" class="g-avatar friend__avatar">
+                    <img src="img/gdragon.png" class="friend__avatar">
                     <div class="friend__content">
                         <span class="friend__name">
                             권지용
@@ -78,11 +79,13 @@
                 </div> 
                 <div class="friend__column">
                     <div class="friend__now-listening">
-                        <span>FTISLAND - 지독하게</span>
-                        <i class="fas fa-play"></i>
+                        <span>FTISLAND - 지독하게
+                            <i class="fas fa-play"></i>
+                        </span>
+                      
                     </div>
                 </div>  
-            </div>
+            </li>
         </ul>
     </main>
     <nav class="nav">
@@ -90,9 +93,12 @@
             <li class="nav__list-item"><a href="friends.html" class="nav__list-link">
                 <i class="fas fa-user"></i>
             </a></li>
-            <li class="nav__list-item"><a href="index.html" class="nav__list-link">
-                <i class="far fa-comment"></i>
-            </a></li>
+            <li class="nav__list-item">
+                <a href="index.html" class="nav__list-link">
+                    <div class="nav__badge">8</div>
+                    <i class="far fa-comment"></i>
+                </a>
+            </li>
             <li class="nav__list-item"><a href="find.html" class="nav__list-link">
                 <i class="fas fa-search"></i>
             </a></li>
